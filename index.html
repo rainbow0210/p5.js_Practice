@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Select Page</title>
+        <style>
+            h1,p{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Select Page</h1>
+        <p>Hello, Chose page!</p>
+        <center>
+            <form action="">
+                <select onchange="location.href=this.options[this.selectedIndex].value" style="text-align:center;color:black;font-size:24px;font-weight:bold;background:white;border:solid 1px #0d0066">
+                    <option value="">Chose page</option>
+                    <option value="./National flag in Japan/index.html">National flag in Japan</option>
+                    <option value="./Change background color loop/index.html">Change background color loop</option>
+                    <option value="./Circle onece rebound loop/index.html">Circle onece rebound loop</option>
+                    <option value="./Get up!/index.html">Get up!</option>
+                    <option value="#">dummy</option>
+                </select>
+            </form><br>
+        </center>
+    </body>
+</html>
